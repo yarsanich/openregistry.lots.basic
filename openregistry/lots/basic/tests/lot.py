@@ -17,6 +17,7 @@ from openregistry.lots.basic.tests.lot_blanks import (
     create_lot,
     patch_lot,
     simple_add_lot,
+    change_lot_statuses_bot2,
 )
 
 
@@ -38,6 +39,7 @@ class LotResourceTest(BaseLotWebTest):
     test_dateModified_lot = snitch(dateModified_lot)
     test_listing_draft = snitch(listing_draft)
     test_listing_changes = snitch(listing_changes)
+    test_change_lot_statuses_bot2 = snitch(change_lot_statuses_bot2)
 
 
 
